@@ -1,0 +1,19 @@
+#app2 {
+}
+#app2 > .tag-bar {
+  display: flex;
+}
+#app2 .tag-bar > li {
+  width: 50%;
+  border: 1px solid grey;
+}
+#app2 .tag-bar > li.selective {
+  background: yellowgreen;
+  color: white;
+}
+#app2 > .tag-content > li {
+  display: none;
+}
+#app2 > .tag-content > li.active {
+  display: block;
+}

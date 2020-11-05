@@ -1,0 +1,12 @@
+#app1 {
+  width: 50vw;
+  height: 50vh;
+}
+#app1 > .output {
+  padding: 20px;
+}
+#app1 > .actions {
+}
+#app1 > .actions > button {
+  padding: 10px 20px 10px 20px;
+}

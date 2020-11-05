@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+body {
+  overflow: hidden;
+}
+
+#app1 {
+  width: 50vw;
+  height: 50vh;
+}
+#app1 > .output {
+  padding: 20px;
+}
+#app1 > .actions {
+}
+#app1 > .actions > button {
+  padding: 10px 20px 10px 20px;
+}
+
+#app2 {
+}
+#app2 > .tag-bar {
+  display: flex;
+}
+#app2 .tag-bar > li {
+  width: 50%;
+  border: 1px solid grey;
+}
+#app2 .tag-bar > li.selective {
+  background: yellowgreen;
+  color: white;
+}
+#app2 > .tag-content > li {
+  display: none;
+}
+#app2 > .tag-content > li.active {
+  display: block;
+}
+
+body > .page {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+body > .page > section {
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid gray;
+}
+
+#app3 {
+}
+#app3 .square {
+  margin-top: 10vh;
+  margin-left: 10vw;
+  width: 10vw;
+  height: 10vh;
+  border: gray solid 1px;
+  transition: transform 1s;
+}
+#app3 .square.active {
+  transform: translateX(20vw);
+}
+
+#app4 {
+}
+#app4 .circle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+@keyframes change {
+  0% {
+    background: red;
+  }
+  100% {
+    background: blue;
+  }
+}
+#app4 .circle.active {
+  animation: change 1s infinite linear alternate;
+}
+
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */
